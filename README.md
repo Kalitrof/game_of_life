@@ -21,7 +21,7 @@ Requirements:
 ## 💡 Steps
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/game_of_life.git
+git clone https://github.com/Kalitrof/game_of_life.git
 cd game_of_life
 cmake -S . -B build
 cmake --build build
