@@ -11,15 +11,13 @@ Implementation of Conway's Game of Life in C++17, with a graphical interface usi
 - Pause / resume with **Space**, quit with **Q** or **Escape**
 
 ## 🛠️ Build
-
 Requirements:
 - C++17 compiler
 - [CMake >= 3.10](https://cmake.org)
 - [SFML >= 2.5](https://www.sfml-dev.org)
 - (optional) OpenMP
 
-## 💡 Steps
-
+## 💡 Steps
 ```bash
 git clone https://github.com/Kalitrof/game_of_life.git
 cd game_of_life
@@ -28,13 +26,11 @@ cmake --build build
 ```
 
 ## ✅ Run
-
 ```bash
 ./build/game_of_life --width 100 --height 100 --pixel 5 -s 100
 ```
 
 ## ⚙️ Options
-
 - -p, --pause : start paused
 - --width <N> : number of cells horizontally
 - --height <N> : number of cells vertically
@@ -42,6 +38,5 @@ cmake --build build
 - -s, --speed <ms> : delay between iterations in ms
 - -h, --help : show help
 
-## 📜 License
-
+## 📜 License
 MIT
